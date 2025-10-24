@@ -1,0 +1,22 @@
+{
+    "name": "com.Sniper1-1.GUID-Reconnector",
+    "version": "1.0.0",
+    "displayName": "GUID Reconnector",
+    "description": "A tool to help reconnect GUIDs on assets moved across Unity projects.",
+
+    "author": {
+        "name": "Sniper1-1",
+        "email": "",
+        "url": "https://github.com/Sniper1-1"
+    },
+    
+    "keywords": [
+        "GUID",
+        "Reconnect",
+        "Reconnector"
+    ],
+
+    "documentationUrl": "https://example.com/",
+    "changelogUrl": "https://example.com/changelog.html",
+    "licensesUrl": "https://example.com/licensing.html"
+}
