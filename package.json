@@ -7,7 +7,7 @@
     "author": {
         "name": "Sniper1-1",
         "email": "",
-        "url": "https://github.com/Sniper1-1"
+        "url": "https://github.com/Sniper1-1/GUID-Reconnector"
     },
     
     "keywords": [
@@ -16,7 +16,7 @@
         "Reconnector"
     ],
 
-    "documentationUrl": "https://example.com/",
-    "changelogUrl": "https://example.com/changelog.html",
-    "licensesUrl": "https://example.com/licensing.html"
+    "documentationUrl": "https://github.com/Sniper1-1/GUID-Reconnector/blob/main/README.md",
+    "changelogUrl": "https://github.com/Sniper1-1/GUID-Reconnector/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://github.com/Sniper1-1/GUID-Reconnector/blob/main/LICENSE.md"
 }
