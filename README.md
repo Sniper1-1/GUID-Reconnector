@@ -1,6 +1,6 @@
 <h1> GUID Reconnector </h1>
 
-This tool was designed to help move assets between Unity projects that may ultimately share resources but may have different GUIDs between projects. This tool was started as a personal project to help with [Lethal Company Modding](https://discord.gg/XeyYqRdRGC) but has been expanded to be less hard-coded/cumbersome and more general usage. However, it should also work in other use cases as well. 
+This tool was designed to help move assets between Unity projects that may ultimately share resources but may have different GUIDs between projects. This tool was started as a personal project to help with [Lethal Company Modding](https://discord.gg/XeyYqRdRGC) but has been expanded to be less hard-coded/cumbersome and more general usage. However, it should also work in other use cases as well. A video tutorial is linked at the bottom of this page.
 
 <h2>Importing</h2>
 
@@ -40,3 +40,8 @@ Select these directories and then click the `Import and Reconnect Connections Us
 3. Assets that reference different assets that happen to share a name could be incorrectly relinked.
 
 Ultimately, backup your projects and check that the import process properly reconnected all of the intended references! Depending on how your poject is set up you should be able to do multiple extracts/imports just fine if you need to.
+
+<h2>Other Useful Links</h2>
+
+[YouTube tutorial/example](https://youtu.be/oEfzqSVsuaU) <br>
+[NG Missing Script Recovery](https://assetstore.unity.com/packages/tools/utilities/ng-missing-script-recovery-102272) for help relinking scripts if this tool doesn't reconnect them.
