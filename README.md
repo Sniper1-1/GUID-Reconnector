@@ -11,7 +11,7 @@ This tool was designed to help move assets between Unity projects that may ultim
 
 <h2>Usage</h2>
 
-Once imported you should be able to go to the top toolbar and click through `Tools`>`GUID Reconnector`. This should provide you with two options, `Extract Info` and `Import Info`. In the project you are going to be moving things from, you will run `Extract Info` and eventually in the project you are moving your things into you will run `Import Info`.
+Once imported you should be able to go to the top toolbar and click through `Tools`>`GUID Reconnector`. This should provide you with two options, `Extract Info` and `Import Info`. In the project you are going to be moving things from, you will run `Extract Info` and eventually in the project you are moving your things into you will run `Import Info`. **Notice: the folders you select in the following steps will search subfolders too.**
 
 ![Image showing options](https://imgur.com/GiPOdsy.png)
 
