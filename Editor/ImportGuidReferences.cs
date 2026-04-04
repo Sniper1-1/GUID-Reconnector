@@ -74,7 +74,9 @@ public class ImportGuidReferences : GUID_Reconnector_Core
         //build lookup of new GUIDs
         Dictionary<string, string> currentNameToGuid = new();
         string[] baseMetaFiles = Directory.GetFiles(basePath, "*.meta", SearchOption.AllDirectories); //get all meta files in the base path
-        
+
+        window.WriteLog("\nSCANNING BASE FOLDER\n");
+
         for (int i = 0; i < baseMetaFiles.Length; i++) //loop through all meta files
         {
             string metaPath = baseMetaFiles[i]; //get the current meta file path
@@ -93,8 +95,10 @@ public class ImportGuidReferences : GUID_Reconnector_Core
         //replace old GUIDs with the new ones
         int replacementCount = 0;
         int totalEntries = importData.entries.Count;
-        
-        for(int i= 0; i < totalEntries; i++)
+
+        window.WriteLog("\nSCANNING MOVE FOLDER\n");
+
+        for (int i= 0; i < totalEntries; i++)
         {
             var entry = importData.entries[i];
             float progress = (float)i / totalEntries; //used for the progress bar
