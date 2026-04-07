@@ -1,6 +1,6 @@
 {
     "name": "com.sniper1-1.guid-reconnector",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "displayName": "GUID Reconnector",
     "description": "A tool to help reconnect GUIDs on assets moved across Unity projects.",
 
