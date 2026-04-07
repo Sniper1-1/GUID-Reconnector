@@ -59,7 +59,9 @@ public class ExtractGuidReferences : GUID_Reconnector_Core
         // Map duplicated GUIDs to filenames
         Dictionary<string, string> duplicatedGuidToName = new();
         string[] BaseMetaFiles = Directory.GetFiles(basePath, "*.meta", SearchOption.AllDirectories);
-        
+
+        window.WriteLog("\nSCANNING BASE FOLDER\n");
+
         for (int i = 0; i < BaseMetaFiles.Length; i++)//go through the base meta files
         {
             string metaPath = BaseMetaFiles[i];//get the current meta file path
@@ -82,7 +84,9 @@ public class ExtractGuidReferences : GUID_Reconnector_Core
         // Find where those GUIDs are referenced in what's being moved
         List<GuidReferenceEntry> entries = new();
         string[] MoveFiles= Directory.GetFiles(movePath, "*.*", SearchOption.AllDirectories);
-        
+
+        window.WriteLog("\nSCANNING MOVE FOLDER\n");
+
         for(int i=0;i< MoveFiles.Length;i++)//go through everything that's being moved
         {
             string filePath = MoveFiles[i];//get the current file path
@@ -93,6 +97,8 @@ public class ExtractGuidReferences : GUID_Reconnector_Core
             {
                 continue;
             }
+
+            window.WriteLog($"\nScanning {new FileInfo(filePath).Length/1024} KB file: {filePath}");
 
             string text = File.ReadAllText(filePath); //read the current file being moved
 
